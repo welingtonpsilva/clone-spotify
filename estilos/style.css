@@ -87,6 +87,11 @@ padding-top: 10px;
 padding-bottom: 10px;
 border-radius: 50px;
 }
+#main-button:hover{
+background-color: rgb(27, 153, 73);
+color: lightgrey;
+cursor: pointer;
+}
 
 
 /*Footer*/
