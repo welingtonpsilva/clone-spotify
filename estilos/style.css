@@ -1,0 +1,177 @@
+@charset "UTF-8";
+
+*{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Header*/
+
+header{
+background-color: rgba(0, 0, 0, 0.486);
+color: white;
+height: 80px;
+width: 100vw;
+position: fixed;
+}
+.nav-container{
+height: 80px;
+display: flex;
+flex-direction: row;
+flex-flow: wrap;
+justify-content: space-around;
+align-items: center;
+}
+.nav-logo{
+display: flex;
+height: 40px;
+width: auto;
+margin-bottom: 10px;
+}
+.nav-list{
+display: flex;
+margin-right: 15px;
+}
+.nav-items{
+padding-left: 25px;
+padding-right: 25px;
+text-decoration: none;
+color: white;
+font-weight: 600;
+font-size: 13px;
+}
+.nav-items:hover{
+color: rgb(30, 202, 92);
+}
+#inscrev{
+    width: 126px;
+}
+#linha{
+border-right: 1px solid white;
+}
+
+
+/*Main*/
+
+.fundo-img{
+background-image: url(../imagens/showcase.webp);
+background-size: cover;
+background-position: center center;
+}
+.main-container{
+    background-color: rgba(0, 0, 0, 0.527);
+color: white;
+height: 87vh;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+.main-items{
+margin-top: 5px;
+margin-bottom: 5px;
+}
+.main-container h1{
+font-size: 50px;
+}
+.main-container button{
+background-color: rgb(30, 202, 92);
+border: none;
+color: white;
+font-weight: 600;
+padding-left: 25px;
+padding-right: 25px;
+padding-top: 10px;
+padding-bottom: 10px;
+border-radius: 50px;
+}
+
+
+/*Footer*/
+
+footer{
+background-color: black;
+}
+.footer-container{
+background-color: black;
+color: white;
+width: 80%;
+margin: auto;
+flex-flow: wrap;
+height: 50vh;
+display: flex;
+justify-content: space-between;
+}
+.footer-logo{
+height: 40px;
+width: auto;
+margin-top: 25px;
+}
+.footer-lista{
+display: flex;
+flex-direction: column;
+margin-top: 40px;
+
+}
+.footer-lista p{
+font-variant: small-caps;
+font-family: 'Roboto', Helvetica, sans-serif;
+font-size: 15px;
+color: gray;
+
+}
+.footer-items{
+    color: lightgrey;
+    text-decoration: none;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+.footer-items:hover{
+color: rgb(30, 202, 92);
+}
+.footer-items-redes{
+height: 27px;
+margin-top: 50px;
+padding-right: 10px;
+}
+
+
+/*Footer part2*/
+
+.footer-container2{
+    height: 50px;
+    background-color: black;
+    display: flex;
+    height: 10vh;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-flow: wrap;
+}
+.footer-list2{
+    display: flex;
+    color: white;
+    margin-left: 150px;
+}
+.footer-items2{
+margin-right: 20px;
+font-size: 10px;
+text-decoration: none;
+color: lightgrey;
+}
+.footer-items2:hover{
+    color: rgb(30, 202, 92);
+}
+.footer-container-copy{
+margin-right: 150px;
+}
+.footer-list-copy{
+display: flex;
+
+}
+#logo-brasil{
+height: 17px;
+width: auto;
+}
